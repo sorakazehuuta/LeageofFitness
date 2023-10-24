@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59dcc03367430bbf76ffbbde227f33, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  _validatorRuleSet: Vket2023WinterConceptWorldRuleSet
+  _exportSetting: VketExportSetting
+  _templateIndex: 3
+  _setPassMaxSize: 20
+  _batchesMaxSize: 30
+  _buildMaxSize: 10
+  _ruleUrlJa: https://event.vket.com/docs/submission_rules_general
+  _ruleUrlEn: https://event.vket.com/en/docs/submission_rules_general
+  _worldName: World End:Utopia Reboot-4010 XX
+  _itemValidatorRuleSet: Vket2023WinterItemRuleSet
+  _itemExportSetting: VketExportSetting
+  _itemTemplateIndex: 12
+  _itemSetPassMaxSize: 6
+  _itemBatchesMaxSize: 10
+  _itemBuildMaxSize: 2
+  _itemRuleUrlJa: https://event.vket.com/docs/submission_rules_item
+  _itemRuleUrlEn: https://event.vket.com/en/docs/submission_rules_item

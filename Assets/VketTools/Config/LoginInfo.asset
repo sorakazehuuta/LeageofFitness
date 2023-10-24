@@ -1,0 +1,482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b0fcb5a8eb0e644b0408d84c648ade, type: 3}
+  m_Name: LoginInfo
+  m_EditorClassIdentifier: 
+  authentication:
+    access_token: f3aN2Xm1_wYvbe6AFb7Jah7ef-tDspXZSgpFqMIy1iU
+    expires_in: 7200
+    id_token: 
+    refresh_token: QJhoENi-RFxodm020Q1S67iatiMskYKcYIycsLEzdLE
+    scope: default
+    token_type: Bearer
+    created_at: 1698162425
+  profile:
+    sub: fc6386e9-80f4-479d-a171-4216b783eaeb
+    vket_id: sorakazehuuta
+    vket_beta_id: 5231
+    name_ja: 
+    name_en: sorakazehuuta
+    picture:
+      url: https://asset.account.vket.com/uploads/user/picture/fc6386e9-80f4-479d-a171-4216b783eaeb/892ee784-26b2-4028-a27b-9ccd876ab3d735918b017e5f5cf4c103f69ba8e9064c.jpg
+      large:
+        url: https://asset.account.vket.com/uploads/user/picture/fc6386e9-80f4-479d-a171-4216b783eaeb/large_892ee784-26b2-4028-a27b-9ccd876ab3d735918b017e5f5cf4c103f69ba8e9064c.jpg
+      medium:
+        url: https://asset.account.vket.com/uploads/user/picture/fc6386e9-80f4-479d-a171-4216b783eaeb/medium_892ee784-26b2-4028-a27b-9ccd876ab3d735918b017e5f5cf4c103f69ba8e9064c.jpg
+      small:
+        url: https://asset.account.vket.com/uploads/user/picture/fc6386e9-80f4-479d-a171-4216b783eaeb/small_892ee784-26b2-4028-a27b-9ccd876ab3d735918b017e5f5cf4c103f69ba8e9064c.jpg
+      xsmall:
+        url: https://asset.account.vket.com/uploads/user/picture/fc6386e9-80f4-479d-a171-4216b783eaeb/xsmall_892ee784-26b2-4028-a27b-9ccd876ab3d735918b017e5f5cf4c103f69ba8e9064c.jpg
+      xxsmall:
+        url: https://asset.account.vket.com/uploads/user/picture/fc6386e9-80f4-479d-a171-4216b783eaeb/xxsmall_892ee784-26b2-4028-a27b-9ccd876ab3d735918b017e5f5cf4c103f69ba8e9064c.jpg
+  data:
+    user:
+      id: 820
+      roles:
+      - id: 853
+        user_id: 820
+        role: exhibitor
+      name_ja: "\u7A7A\u98A8\u3075\u3046\u305F"
+      name_en: sorakazehuuta
+    circle:
+    - id: 518
+      owner_id: 820
+      world_id: 0
+      quest_world_id: 0
+      name_ja: "\u7A7A\u9921"
+      name_en: Kuan
+      description_ja: "\u4ECA\u56DE\u306FVR\u30D5\u30A3\u30C3\u30C8\u30CD\u30B9\u30B2\u30FC\u30E0\u3092\u4F5C\u3063\u3066\u307F\u305F\u304F\u3066\u53C2\u52A0\u3057\u307E\u3057\u305F\u3002\n\u5B8C\u6210\u3057\u305F\u3089\u904A\u3093\u3067\u304F\u3060\u3055\u3044\uFF01\uFF01"
+      description_en: 'I participated this time because I wanted to try making a
+        VR fitness game.
+
+        Please play with it when completed! !'
+      thumbnail:
+        url: https://event-2023winter-backend-asset.vket.com/uploads/circle/thumbnail/518/3275bc1d-b95f-438f-97c1-833c2d7dd913d2bb430948bc4e539a20d379e72993ee.jpeg
+      website: 
+      twitter: 
+      share_url: 
+      company: 0
+      confirm: 0
+      is_decline: 0
+      deleted: 0
+      created_at: 2023-10-24T11:20:43.566Z
+      updated_at: 2023-10-24T11:38:35.840Z
+      worlds:
+      - id: 19
+        name_ja: "\u30A2\u30AF\u30B7\u30E7\u30F3\u30B7\u30C6\u30A3"
+        name_en: Action City
+        world_type: quest
+        booth_type: booth
+    company: []
+  mall_data:
+    status: 
+    user_id: 0
+    sub: 
+    vket_id: 
+    user_name: 
+    user_name_en: 
+    items: []
+    placements: []
+  vketId: sorakazehuuta
+  accessToken: f3aN2Xm1_wYvbe6AFb7Jah7ef-tDspXZSgpFqMIy1iU
+  vrcLaunchFlag: 1
+  world:
+  - id: 1
+    concept_id: 1
+    name: "\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9-\u30D1\u30E9\u30EA\u30A2\u30EB\u30BB\u30F3\u30C8\u30E9\u30EB"
+    name_en: Entrance Parareal Central
+    world_type: pc
+    company: 0
+    image: entrance
+    concept:
+      id: 1
+      name_ja: "\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9-\u30D1\u30E9\u30EA\u30A2\u30EB\u30BB\u30F3\u30C8\u30E9\u30EB"
+      name_en: Entrance Parareal Central
+    thumbnail:
+      url: 
+  - id: 2
+    concept_id: 1
+    name: "\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9-\u30D1\u30E9\u30EA\u30A2\u30EB\u30BB\u30F3\u30C8\u30E9\u30EB"
+    name_en: Entrance Parareal Central
+    world_type: quest
+    company: 0
+    image: entrance
+    concept:
+      id: 1
+      name_ja: "\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9-\u30D1\u30E9\u30EA\u30A2\u30EB\u30BB\u30F3\u30C8\u30E9\u30EB"
+      name_en: Entrance Parareal Central
+    thumbnail:
+      url: 
+  - id: 3
+    concept_id: 2
+    name: "\u30D1\u30E9\u30EA\u30A2\u30EB\u30ED\u30F3\u30C9\u30F3"
+    name_en: Parareal London
+    world_type: pc
+    company: 1
+    image: london
+    concept:
+      id: 2
+      name_ja: "\u30D1\u30E9\u30EA\u30A2\u30EB\u30ED\u30F3\u30C9\u30F3"
+      name_en: Parareal London
+    thumbnail:
+      url: 
+  - id: 4
+    concept_id: 3
+    name: "\u30D1\u30E9\u30EA\u30A2\u30EB\u6C96\u7E04"
+    name_en: Parareal Okinawa
+    world_type: pc
+    company: 1
+    image: okinawa
+    concept:
+      id: 3
+      name_ja: "\u30D1\u30E9\u30EA\u30A2\u30EB\u6C96\u7E04"
+      name_en: Parareal Okinawa
+    thumbnail:
+      url: 
+  - id: 5
+    concept_id: 4
+    name: "\u30D1\u30E9\u30EA\u30A2\u30EB\u6E0B\u8C37\u30FB\u539F\u5BBF"
+    name_en: Parareal Shibuya & Harajuku
+    world_type: pc
+    company: 1
+    image: shibuhara
+    concept:
+      id: 4
+      name_ja: "\u30D1\u30E9\u30EA\u30A2\u30EB\u6E0B\u8C37\u30FB\u539F\u5BBF"
+      name_en: Parareal Shibuya & Harajuku
+    thumbnail:
+      url: 
+  - id: 6
+    concept_id: 5
+    name: "\u7A76\u6975"
+    name_en: Epitome
+    world_type: pc
+    company: 0
+    image: gajouen
+    concept:
+      id: 5
+      name_ja: "\u30DB\u30C6\u30EB\u7259\u57CE\u5712"
+      name_en: Hotel Gajou-en
+    thumbnail:
+      url: 
+  - id: 7
+    concept_id: 5
+    name: "\u81F3\u9AD8"
+    name_en: Supreme
+    world_type: pc
+    company: 0
+    image: gajouen
+    concept:
+      id: 5
+      name_ja: "\u30DB\u30C6\u30EB\u7259\u57CE\u5712"
+      name_en: Hotel Gajou-en
+    thumbnail:
+      url: 
+  - id: 8
+    concept_id: 6
+    name: "\u30DF\u30C3\u30C9\u30CA\u30A4\u30C8"
+    name_en: Midnight
+    world_type: pc
+    company: 0
+    image: barremhorn
+    concept:
+      id: 6
+      name_ja: "\u9152\u5834\u8857\u30D0\u30FC\u30EC\u30E0\u30DB\u30EB\u30F3"
+      name_en: Barremhorn
+    thumbnail:
+      url: 
+  - id: 9
+    concept_id: 6
+    name: "\u30C9\u30FC\u30F3"
+    name_en: Dawn
+    world_type: pc
+    company: 0
+    image: barremhorn
+    concept:
+      id: 6
+      name_ja: "\u9152\u5834\u8857\u30D0\u30FC\u30EC\u30E0\u30DB\u30EB\u30F3"
+      name_en: Barremhorn
+    thumbnail:
+      url: 
+  - id: 10
+    concept_id: 7
+    name: "\u30E2\u30F3\u30C6\u30A3\u30CD\u30E1\u30B7\u30B9"
+    name_en: Montynemesis
+    world_type: pc
+    company: 0
+    image: dragonsback
+    concept:
+      id: 7
+      name_ja: "\u9F8D\u306E\u80CC\u4E2D"
+      name_en: Dragon's Back
+    thumbnail:
+      url: 
+  - id: 11
+    concept_id: 7
+    name: "\u30A6\u30F3\u30D0\u30EB\u30B9\u30AB\u30A4"
+    name_en: Wunversky
+    world_type: pc
+    company: 0
+    image: dragonsback
+    concept:
+      id: 7
+      name_ja: "\u9F8D\u306E\u80CC\u4E2D"
+      name_en: Dragon's Back
+    thumbnail:
+      url: 
+  - id: 12
+    concept_id: 8
+    name: "XX 3980\u5E74"
+    name_en: 3980 XX
+    world_type: pc
+    company: 0
+    image: worldend
+    concept:
+      id: 8
+      name_ja: "\u30EF\u30FC\u30EB\u30C9\u30A8\u30F3\u30C9\u30E6\u30FC\u30C8\u30D4\u30A2
+        Reboot"
+      name_en: World End:Utopia Reboot
+    thumbnail:
+      url: 
+  - id: 13
+    concept_id: 8
+    name: "XX 4010\u5E74"
+    name_en: 4010 XX
+    world_type: pc
+    company: 0
+    image: worldend
+    concept:
+      id: 8
+      name_ja: "\u30EF\u30FC\u30EB\u30C9\u30A8\u30F3\u30C9\u30E6\u30FC\u30C8\u30D4\u30A2
+        Reboot"
+      name_en: World End:Utopia Reboot
+    thumbnail:
+      url: 
+  - id: 14
+    concept_id: 9
+    name: "\u30AD\u30F3\u30B0"
+    name_en: King
+    world_type: pc
+    company: 0
+    image: nurseryrhyme
+    concept:
+      id: 9
+      name_ja: "\u30CA\u30FC\u30B5\u30EA\u30FC\u30E9\u30A4\u30E0 Retold"
+      name_en: Nursery Rhyme Retold
+    thumbnail:
+      url: 
+  - id: 15
+    concept_id: 9
+    name: "\u30AF\u30A4\u30FC\u30F3"
+    name_en: Queen
+    world_type: pc
+    company: 0
+    image: nurseryrhyme
+    concept:
+      id: 9
+      name_ja: "\u30CA\u30FC\u30B5\u30EA\u30FC\u30E9\u30A4\u30E0 Retold"
+      name_en: Nursery Rhyme Retold
+    thumbnail:
+      url: 
+  - id: 16
+    concept_id: 10
+    name: "-\u30A2\u30A4\u30F3-"
+    name_en: -Ain-
+    world_type: pc
+    company: 0
+    image: falleneden
+    concept:
+      id: 10
+      name_ja: "\u30D5\u30A9\u30FC\u30EB\u30F3\u30A8\u30C7\u30F3"
+      name_en: Fallen Eden
+    thumbnail:
+      url: 
+  - id: 17
+    concept_id: 10
+    name: "-\u30BD\u30D5-"
+    name_en: -Soph-
+    world_type: pc
+    company: 0
+    image: falleneden
+    concept:
+      id: 10
+      name_ja: "\u30D5\u30A9\u30FC\u30EB\u30F3\u30A8\u30C7\u30F3"
+      name_en: Fallen Eden
+    thumbnail:
+      url: 
+  - id: 18
+    concept_id: 10
+    name: "-\u30AA\u30A6\u30EB-"
+    name_en: -Aur-
+    world_type: pc
+    company: 0
+    image: falleneden
+    concept:
+      id: 10
+      name_ja: "\u30D5\u30A9\u30FC\u30EB\u30F3\u30A8\u30C7\u30F3"
+      name_en: Fallen Eden
+    thumbnail:
+      url: 
+  - id: 19
+    concept_id: 11
+    name: "\u30A2\u30AF\u30B7\u30E7\u30F3\u30B7\u30C6\u30A3"
+    name_en: Action City
+    world_type: quest
+    company: 0
+    image: pixelica
+    concept:
+      id: 11
+      name_ja: "\u30D4\u30AF\u30BB\u30EA\u30AB"
+      name_en: Pixelica
+    thumbnail:
+      url: 
+  - id: 20
+    concept_id: 11
+    name: "\u30A2\u30C9\u30D9\u30F3\u30C1\u30E3\u30FC\u30BF\u30A6\u30F3"
+    name_en: Adventure Town
+    world_type: quest
+    company: 0
+    image: pixelica
+    concept:
+      id: 11
+      name_ja: "\u30D4\u30AF\u30BB\u30EA\u30AB"
+      name_en: Pixelica
+    thumbnail:
+      url: 
+  - id: 21
+    concept_id: 12
+    name: "\u3010\u30A4\u30DE\u30CD\u30B8\u30A2\u3011 \u738B\u90FD\u30DE\u30AE\u30AB"
+    name_en: "\u3010Imanesia\u3011 Capital Magica"
+    world_type: quest
+    company: 0
+    image: imanesia
+    concept:
+      id: 12
+      name_ja: "\u3010\u30A4\u30DE\u30CD\u30B8\u30A2\u3011 \u738B\u90FD\u30DE\u30AE\u30AB"
+      name_en: "\u3010Imanesia\u3011 Capital Magica"
+    thumbnail:
+      url: 
+  - id: 22
+    concept_id: 13
+    name: "\u3010\u30C6\u30AF\u30CE\u30AB\u30A4\u30F3\u30C9\u3011 \u30C6\u30B6\u30FC\u30D5\u30A9\u30FC\u30C9"
+    name_en: "\u3010Technokinds\u3011 TetherFord"
+    world_type: quest
+    company: 0
+    image: technokinds
+    concept:
+      id: 13
+      name_ja: "\u3010\u30C6\u30AF\u30CE\u30AB\u30A4\u30F3\u30C9\u3011 \u30C6\u30B6\u30FC\u30D5\u30A9\u30FC\u30C9"
+      name_en: "\u3010Technokinds\u3011 TetherFord"
+    thumbnail:
+      url: 
+  - id: 23
+    concept_id: 14
+    name: "VketMall - \u4E94\u8272\u5C4B"
+    name_en: VketMall - Goshikiya
+    world_type: quest
+    company: 0
+    image: mall-goshikiya
+    concept:
+      id: 14
+      name_ja: "VketMall - \u4E94\u8272\u5C4B"
+      name_en: VketMall - Goshikiya
+    thumbnail:
+      url: 
+  - id: 24
+    concept_id: 15
+    name: VketMall - Argento
+    name_en: VketMall - Argento
+    world_type: quest
+    company: 0
+    image: mall-argento
+    concept:
+      id: 15
+      name_ja: VketMall - Argento
+      name_en: VketMall - Argento
+    thumbnail:
+      url: 
+  - id: 25
+    concept_id: 16
+    name: VketMall - MORNING GLORY
+    name_en: VketMall - MORNING GLORY
+    world_type: quest
+    company: 0
+    image: mall-morningglory
+    concept:
+      id: 16
+      name_ja: VketMall - MORNING GLORY
+      name_en: VketMall - MORNING GLORY
+    thumbnail:
+      url: 
+  - id: 26
+    concept_id: 17
+    name: "VketMall - \u7259\u79D1"
+    name_en: VketMall - Yake
+    world_type: quest
+    company: 0
+    image: mall-yake
+    concept:
+      id: 17
+      name_ja: "VketMall - \u7259\u79D1"
+      name_en: VketMall - Yake
+    thumbnail:
+      url: 
+  shop: []
+  genre: []
+  dcInfoData:
+    status: 
+    space_id: 0
+    circle_id: 0
+    circle_name: 
+    circle_name_en: 
+    icon: 
+    image:
+      url: 
+      small:
+        url: 
+  submissionTerm:
+    status: 200
+    server_time: 1698162432
+    start: 1697770800
+    end: 1700406900
+  selectedItemNum: 9999
+  selectedCircleNum: 0
+  selectedWorldId: 19
+  errorFlag: 0
+  circleIcon: {fileID: 0}
+  worldIcon:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

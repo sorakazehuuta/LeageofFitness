@@ -1,0 +1,22 @@
+{
+    "name": "VitDeck.Validator",
+    "references": [
+        "VitDeck.Utilities",
+        "VitDeck.Validator.Components",
+        "VitDeck.Language",
+        "Vket",
+        "Vket.UdonManager",
+        "VketAsset"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

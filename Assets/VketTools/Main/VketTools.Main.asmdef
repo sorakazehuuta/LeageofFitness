@@ -1,0 +1,40 @@
+{
+    "name": "VketTools.Main",
+    "references": [
+        "VketTools.Utilities",
+        "VketTools.Language",
+        "VitDeck.Utilities",
+        "VitDeck.Validator.GUI",
+        "VitDeck.Main",
+        "VitDeck.Main.ValidatedExporter.GUI",
+        "VitDeck.Main.ValidatedExporter",
+        "VitDeck.Exporter",
+        "VketTools.Utilities.SS",
+        "VitDeck.Validator",
+        "VitDeck.Validator.Components",
+        "VitDeck.Validator.Rules",
+        "VitDeck.TemplateLoader.GUI",
+        "VitDeck.TemplateLoader",
+        "VitDeck.Exporter.Addons.VRCSDK3",
+        "Unity.EditorCoroutines.Editor",
+        "VRC.Udon",
+        "UdonSharp.Runtime",
+        "UdonSharp.Editor",
+        "Vket.VketPrefabs.Editor",
+        "VRC.SDKBase.Editor",
+        "VRC.SDK3.Editor",
+        "UniTask",
+        "Vket.VketPrefabs"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

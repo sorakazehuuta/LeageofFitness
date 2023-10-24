@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59dcc03367430bbf76ffbbde227f33, type: 3}
+  m_Name: 1002
+  m_EditorClassIdentifier: 
+  _worldName: Community Collaboration Big
+  _validatorRuleSet: Vket2023WinterCommunityBigRuleSet
+  _exportSetting: VketExportSetting
+  _templateIndex: 15
+  _setPassMaxSize: 120
+  _batchesMaxSize: 180
+  _buildMaxSize: 25
+  _ruleUrlJa: https://event.vket.com/docs/submission_rules
+  _ruleUrlEn: https://event.vket.com/en/docs/submission_rules
+  _itemValidatorRuleSet: 
+  _itemExportSetting: 
+  _itemTemplateIndex: 0
+  _itemSetPassMaxSize: 0
+  _itemBatchesMaxSize: 0
+  _itemBuildMaxSize: 0
+  _itemRuleUrlJa: 
+  _itemRuleUrlEn: 

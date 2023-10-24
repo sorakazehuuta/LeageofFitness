@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d59dcc03367430bbf76ffbbde227f33, type: 3}
+  m_Name: 24
+  m_EditorClassIdentifier: 
+  _validatorRuleSet: 
+  _exportSetting: 
+  _templateIndex: 0
+  _setPassMaxSize: 0
+  _batchesMaxSize: 0
+  _buildMaxSize: 0
+  _ruleUrlJa: 
+  _ruleUrlEn: 
+  _worldName: VketMall - Argento
+  _itemValidatorRuleSet: Vket2023WinterQuestItemRuleSet
+  _itemExportSetting: VketExportSetting
+  _itemTemplateIndex: 13
+  _itemSetPassMaxSize: 6
+  _itemBatchesMaxSize: 10
+  _itemBuildMaxSize: 2
+  _itemRuleUrlJa: https://event.vket.com/docs/submission_rules_item_quest
+  _itemRuleUrlEn: https://event.vket.com/en/docs/submission_rules_item_quest

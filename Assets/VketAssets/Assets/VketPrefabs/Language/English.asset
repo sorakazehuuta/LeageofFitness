@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f07a9e629cf31409bdf67fb15b3e2b, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  language:
+  - key: VketPrefabsMainWindow.Title
+    value: VketPrefabs
+  - key: VketPrefabsMainWindow.Description
+    value: The list of available VketPrefabs.
+  - key: VketAvatarPedestal_2D.Description
+    value: An avatar pedestal with a pop-up confirmation window. An image can be
+      used for display.
+  - key: VketAvatarPedestal_3D.Description
+    value: An avatar pedestal with a pop-up confirmation window. A 3D model can be
+      used for display.
+  - key: VketAvatarPedestal_Default.Description
+    value: An avatar pedestal with a pop-up confirmation window
+  - key: VketChair.Description
+    value: A chair gimmick for general use.
+  - key: VketFittingChair.Description
+    value: "A chair gimmick which auto-adjusts sitting position by the player\u2019s
+      Hip bone height."
+  - key: VketImageDownloader.Description
+    value: This prefab displays the image from a given URL on the player's booth
+      entry. The target Renderer and Material can be designated to display the loaded
+      image.
+  - key: VketImageDownloader.Repletion
+    value: '*After prefab generation, set the values via the Inspector.'
+  - key: VketLanguageSwitcher.Description
+    value: On Interact, the world's language settings will be switched locally. If
+      the language is set to English, objects in [EnSwitchObjects] will be enabled,
+      while objects in [JpSwitchObjects] will be disabled. The opposite will happen
+      if language is set to Japanese.
+  - key: VketFollowPickup.Description
+    value: Using this Pickup, the object will follow the player's body. Object position
+      will be syncronized globally. Object position will reset after 30 seconds from
+      the last pickup.
+  - key: VketPickup.Description
+    value: A Pickup with global position sync. Object position will reset after 30
+      seconds from the last pickup.
+  - key: VketSoundFade.Description
+    value: On use, the world BGM will fadeout / fadein with interval. The fade interval
+      may be designated by setting values. Also, automatic fade on the player's booth
+      entry may be set as well. If a sound source is designated, the sound will fade
+      in while the world BGM fades out.
+  - key: VketStringDownloader.Description
+    value: 'On the player''s booth entry, the text from the given URL will be loaded.
+      The loaded text will be written on the component designated in TargetText Available
+      Components are: Text, TextMeshPro, and TextMeshProUGUI.'
+  - key: VketStringDownloader.Repletion
+    value: '*This component is for experienced exhibitors. After prefab generation,
+      set the values via the Inspector.'
+  - key: VketVideoPlayer.Description
+    value: Plays a video from the given URL.
+  - key: VketVideoUrlTrigger.Description
+    value: "Overwrites the video URL in VketVideoPlayer to change the playing video.
+      The trigger can be activated by the methods below: \u30FBOn player interaction
+      \u30FBOn player entering a designated range"
+  - key: VketCirclePageOpener_2D.Description
+    value: On use, the exhibition circle page on VketStore will open in the browser.
+      This prefab is functional only at the venue worlds during the Virtual Market
+      event period. An image can be used for display.
+  - key: VketCirclePageOpener_3D.Description
+    value: On use, the product page on VketStore will open in the browser. This prefab
+      is functional only at the venue worlds during the Virtual Market event period.
+      A 3D model can be used for display.
+  - key: VketItemPageOpener_2D.Description
+    value: On use, the product page on VketStore will open in the browser. This prefab
+      is functional only at the venue worlds during the Virtual Market event period.
+      An image can be used for display.
+  - key: VketItemPageOpener_3D.Description
+    value: On use, the exhibition circle page on VketStore will open in the browser.
+      This prefab is functional only at the venue worlds during the Virtual Market
+      event period. A 3D model can be used for display.
+  - key: VketPrefabsMainWindow.ItemName
+    value: 'Prefab Name: {0}'
+  - key: VketPrefabsMainWindow.ItemDescription
+    value: 'Description:'
+  - key: VketPrefabsMainWindow.ItemDescription.None
+    value: No Description Designated
+  - key: VketPrefabsMainWindow.OpenSettingWindowButton
+    value: Generate and Configure Prefab
+  - key: VketPrefabsMainWindow.CreateVketPrefabButton
+    value: Generate Prefab
+  - key: VketPrefabsMainWindow.ExhibitRootObjects.NotFound
+    value: Object according to submission rules couldn't be found.
+  - key: VketPrefabsMainWindow.ExhibitRootObjects.Multiple
+    value: Multiple objects according to submission rules has been detected.
+  - key: VketPrefabsMainWindow.CreateVketPrefab.NotFound
+    value: Target VketPrefab to be generated couldn't be found.
+  - key: VketPrefabSettingWindow.Header.Title
+    value: Configuration for {0}
+  - key: VketPrefabSettingWindow.Header.InstanceNotFound
+    value: '{0} Prefab couldn''t be found.'
+  - key: VketPrefabSettingWindow.Footer.SelectButton
+    value: Select prefab targeted for configuration
+  - key: VketPrefabSettingWindow.Footer.SelectButton.Help
+    value: Select the {0} currently targeted for configuration.
+  - key: VketPrefabSettingWindow.Footer.CancelButton
+    value: Cancel generation and delete prefab
+  - key: VketPrefabSettingWindow.Footer.CancelButton.Help
+    value: Abort the configuration and delete the generated {0}.
+  - key: VketPrefabSettingWindow.Footer.CloseButton
+    value: Finish Configuring Prefab
+  - key: VketAvatarPedestalSettingWindow.SelectBlueprintId
+    value: 1. Designate a Blueprint ID
+  - key: VketAvatarPedestalSettingWindow.SelectBlueprintId.Help
+    value: Designate the public avatar ID for the pedestal.
+  - key: VketAvatarPedestalSettingWindow.SizeSetting
+    value: 2. Adjust scale
+  - key: VketAvatarPedestalSettingWindow.TextureSetting
+    value: 3. Set a thumbnail image
+  - key: VketAvatarPedestalSettingWindow.VisualSetting
+    value: 2. Set a 3D model for display
+  - key: VketAvatarPedestalSettingWindow.VisualSetting.Help
+    value: Designate the 3D object to be displayed.
+  - key: VketAvatarPedestalSettingWindow.ColliderScaleSetting
+    value: 3. Setup collider scale
+  - key: VketAvatarPedestalSettingWindow.ColliderScaleSetting.Help
+    value: The collider scale will be setup automatically according to the displaying
+      3D object.
+  - key: VketAvatarPedestalSettingWindow.VisualColliderDeleteButton
+    value: 4. Delete colliders from the displaying 3D object
+  - key: VketAvatarPedestalSettingWindow.VisualColliderDeleteButton.Help
+    value: For functionality, unneccessary colliders in the displaying 3D object
+      will be deleted.
+  - key: VketChairSettingWindow.VisualSetting
+    value: 1. Designate a 3D model for display
+  - key: VketChairSettingWindow.VisualSetting.Help
+    value: Designate a 3D object for display.
+  - key: VketChairSettingWindow.VisualColliderDeleteButton
+    value: 2. Delete colliders from the displaying 3D object
+  - key: VketChairSettingWindow.VisualColliderDeleteButton.Help
+    value: For functionality, unneccessary colliders in the displaying 3D object
+      will be deleted.
+  - key: VketChairSettingWindow.EnterLocationSetting
+    value: 3. Adjust sitting position
+  - key: VketChairSettingWindow.SelectEnterLocationButton
+    value: Select [Enter Location] object
+  - key: VketChairSettingWindow.SelectEnterLocationButton.Help
+    value: Move the selected [Enter Location] object to adjust the sitting position.
+  - key: VketFittingChairSettingWindow.VisualSetting
+    value: 1. Designate a 3D model for display
+  - key: VketFittingChairSettingWindow.VisualSetting.Help
+    value: Designate a 3D object for display.
+  - key: VketFittingChairSettingWindow.VisualColliderDeleteButton
+    value: 2. Delete colliders from the displaying 3D object
+  - key: VketFittingChairSettingWindow.VisualColliderDeleteButton.Help
+    value: For functionality, unneccessary colliders in the displaying 3D object
+      will be deleted.
+  - key: VketFittingChairSettingWindow.EnterLocationSetting
+    value: 3. Adjust sitting position
+  - key: VketFittingChairSettingWindow.SelectEnterLocationButton
+    value: Select [Enter Location] object
+  - key: VketFittingChairSettingWindow.SelectEnterLocationButton.Help
+    value: Move the selected [Enter Location] object to adjust the sitting position.
+      The player's Hip position will be automatically adjusted to the height of [Enter
+      Location].
+  - key: VketFollowPickupSettingWindow.FollowBoneSetting
+    value: 1. Designate avatar bone to follow
+  - key: VketFollowPickupSettingWindow.AttachRangeSetting
+    value: 2. Designate attach range
+  - key: VketFollowPickupSettingWindow.AttachRangeSetting.Help
+    value: On interaction, the object will begin following if the designated avatar
+      bone is within the attach range.
+  - key: VketFollowPickupSettingWindow.VisualSetting
+    value: 3. Designate a 3D model for display
+  - key: VketFollowPickupSettingWindow.VisualSetting.Help
+    value: Designate a 3D object for display.
+  - key: VketFollowPickupSettingWindow.ColliderScaleSetting
+    value: 4. Setup collider scale
+  - key: VketFollowPickupSettingWindow.ColliderScaleSetting.Help
+    value: The collider scale will be setup automatically according to the displaying
+      3D object. As the collider will be setup smaller than the appearance, configure
+      the CapsuleCollider size via Inspector for further adjustment.
+  - key: VketPickupSettingWindow.VisualSetting
+    value: 1. Designate a 3D model for display
+  - key: VketPickupSettingWindow.VisualSetting.Help
+    value: Designate a 3D object for display.
+  - key: VketPickupSettingWindow.ColliderScaleSetting
+    value: 2. Setup collider scale
+  - key: VketPickupSettingWindow.ColliderScaleSetting.Help
+    value: The collider scale will be setup automatically according to the displaying
+      3D object. As the collider will be setup smaller than the appearance, configure
+      the CapsuleCollider size via Inspector for further adjustment.
+  - key: VketPickupSettingWindow.AdvancedSetting
+    value: Advanced Settings
+  - key: VketPickupSettingWindow.AnimationSetting
+    value: Setting Animation
+  - key: VketPickupSettingWindow.AnimationSetting.Help
+    value: To implement an Animation, select the [Create new override controller]
+      to create/save a new OverrideController, and register the AnimationClip.
+  - key: VketSoundFadeSettingWindow.FadeInTimeSetting
+    value: 1. Designate fade-in time of the sound source
+  - key: VketSoundFadeSettingWindow.OnBoothFadeSetting
+    value: 2. Select this for automatic fading on player's booth entry
+  - key: VketSoundFadeSettingWindow.AudioClipSetting
+    value: '3. Designate audio clip to play '
+  - key: VketSoundFadeSettingWindow.AudioClipSetting.Help
+    value: The designated audio will play in exchange of the World BGM.
+  - key: VketVideoPlayerSettingWindow.VideoUrlSetting
+    value: 1. Designate Video URL
+  - key: VketVideoPlayerSettingWindow.VideoLoopSetting
+    value: 2. Select this for looping the video
+  - key: VketVideoPlayerSettingWindow.FadeBgmSetting
+    value: 3. Select this for attenuating the world BGM volume on playing the video
+  - key: VketVideoPlayerSettingWindow.OnEnterPlayerSetting
+    value: 4. Select this to auto-play vidoe on player's booth entry
+  - key: VketVideoPlayerSettingWindow.EnabledUiSetting
+    value: 5. Select this to omit control panel
+  - key: VketVideoPlayerSettingWindow.ScreenSizeSetting
+    value: 6. Adjust screen size
+  - key: VketVideoPlayerSettingWindow.ScreenSizeSetting.Aspect
+    value: Aspect Ratio
+  - key: VketVideoPlayerSettingWindow.ScreenSizeSetting.Size
+    value: Adjust screen size
+  - key: VketVideoPlayerSettingWindow.DisabledImageSetting
+    value: 7. Image to display when video is not playing
+  - key: VketVideoPlayerSettingWindow.LoadingImageSetting
+    value: 8. Image to display when video is loading
+  - key: VketVideoPlayerSettingWindow.SelectAudioSourceButton
+    value: Select AudioSource
+  - key: VketVideoPlayerSettingWindow.SelectAudioSourceButton.Help
+    value: This selects the object handling the video's audio volume and range. Adjust
+      the values via Inspector.
+  - key: VketVideoUrlTriggerSettingWindow.VideoUrlSetting
+    value: 1. Designate Video URL
+  - key: VketVideoUrlTriggerSettingWindow.VideoUrlSetting.Help
+    value: If the URL is empty, the VideoPlayer will be played as is.
+  - key: VketVideoUrlTriggerSettingWindow.VideoPlayerSetting
+    value: 2. Designate target Video Player
+  - key: VketVideoUrlTriggerSettingWindow.StartingMethodSetting
+    value: 3. Select method of trigger
+  - key: VketVideoUrlTriggerSettingWindow.StartingMethodSetting.Help
+    value: '[Interact]: trigger on object interaction [On Player Enter]: trigger
+      on player entry in a certain range'
+  - key: VketVideoUrlTriggerSettingWindow.VisualSetting
+    value: 4. Designate apperance of interaction object
+  - key: VketVideoUrlTriggerSettingWindow.VisualSetting.Help
+    value: This sets the object for prefab apperance. Designate a prefab such as
+      switches, etc.
+  - key: VketVideoUrlTriggerSettingWindow.UseRangeSetting
+    value: 5. Designate range for enabling interaction
+  - key: VketVideoUrlTriggerSettingWindow.UseRangeSetting.SelectColliderButton
+    value: Select Collider
+  - key: VketVideoUrlTriggerSettingWindow.UseRangeSetting.Help
+    value: The trigger range will be designated by the BoxCollider. Adjust its scale
+      via Inspector.
+  - key: VketVideoUrlTriggerSettingWindow.PlayerEnterSetting
+    value: 4. Designate range of trigger by player's entry
+  - key: VketVideoUrlTriggerSettingWindow.PlayerEnterSetting.SelectColliderButton
+    value: Select Collider
+  - key: VketVideoUrlTriggerSettingWindow.PlayerEnterSetting.Help
+    value: The trigger range will be designated by the BoxCollider. Adjust its scale
+      via Inspector.
+  - key: VketWebPageOpenerSettingWindow.SizeSetting
+    value: 1. Adjust scale
+  - key: VketWebPageOpenerSettingWindow.TextureSetting
+    value: 2. Designate image
+  - key: VketWebPageOpenerSettingWindow.VisualSetting
+    value: 1. Designate a 3D model for display
+  - key: VketWebPageOpenerSettingWindow.VisualSetting.Help
+    value: Designate a 3D object for display.
+  - key: VketWebPageOpenerSettingWindow.ColliderScaleSetting
+    value: 1. Setup collider scale
+  - key: VketWebPageOpenerSettingWindow.ColliderScaleSetting.Help
+    value: The collider scale will be setup automatically according to the displaying
+      3D object.
+  - key: VketWebPageOpenerSettingWindow.VisualColliderDeleteButton
+    value: 3. Delete colliders from the displaying 3D object
+  - key: VketWebPageOpenerSettingWindow.VisualColliderDeleteButton.Help
+    value: For functionality, unneccessary colliders in the displaying 3D object
+      will be deleted.
+  - key: VketWebPageOpenerSettingWindow.ItemIdSetting.2D
+    value: 3. Designate Item ID
+  - key: VketWebPageOpenerSettingWindow.ItemIdSetting.3D
+    value: 4. Designate Item ID
+  - key: VketWebPageOpenerSettingWindow.ItemIdSetting.Help
+    value: Designate the Item ID on the product page.
+  - key: VketLanguageSwitcherSettingWindow.SizeSetting
+    value: 1. Adjust scale
+  - key: VketLanguageSwitcherSettingWindow.SwitchToEnglishSpriteSetting
+    value: 2. Designate image for switching to English
+  - key: VketLanguageSwitcherSettingWindow.SwitchToJapaneseSpriteSetting
+    value: 3. Designate image for switching to Japanese
+  - key: VketLanguageSwitcherSettingWindow.JpObject
+    value: '4. Designate objects to be enabled when language is Japanese '
+  - key: VketLanguageSwitcherSettingWindow.JpObject.Help
+    value: The objects will be enabled when language is Japanese, disabled when English.
+  - key: VketLanguageSwitcherSettingWindow.EnObject
+    value: 5. Designate objects to be enabled when language is English
+  - key: VketLanguageSwitcherSettingWindow.EnObject.Help
+    value: The objects will be enabled when language is English, disabled when Japanese.
+      The designated objects must be disabled on default.

@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f07c7a7c367894882d39566f3c2ae3, type: 3}
+  m_Name: Japanese
+  m_EditorClassIdentifier: 
+  language:
+  - key: Vket_ControlPanel.CreateSubmissionSceneButton
+    value: "\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u4F5C\u6210"
+  - key: Vket_ControlPanel.BoothCheckButton
+    value: "\u30D6\u30FC\u30B9\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_ControlPanel.BuildSizeCheckButton
+    value: "\u5BB9\u91CF\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_ControlPanel.SetPassCheckButton
+    value: "SetPass\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_ControlPanel.LogOutButton
+    value: "\u30ED\u30B0\u30A2\u30A6\u30C8"
+  - key: Vket_ControlPanel.SubmissionButton
+    value: "\u5165\u7A3F"
+  - key: Vket_ControlPanel.CircleName
+    value: "\u30B5\u30FC\u30AF\u30EB\u540D"
+  - key: Vket_ControlPanel.UserName
+    value: "\u540D\u524D"
+  - key: Vket_ControlPanel.PlacementWorld
+    value: "\u914D\u7F6E\u30EF\u30FC\u30EB\u30C9"
+  - key: Vket_ControlPanel.Login
+    value: "\u30ED\u30B0\u30A4\u30F3"
+  - key: Vket_ControlPanel.LoginVketAccount
+    value: "Vket\u30A2\u30AB\u30A6\u30F3\u30C8\u3067\u30ED\u30B0\u30A4\u30F3"
+  - key: Yes
+    value: "\u306F\u3044"
+  - key: No
+    value: "\u3044\u3044\u3048"
+  - key: Cancel
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Confirmed
+    value: "\u78BA\u8A8D\u3057\u307E\u3057\u305F"
+  - key: Vket_ControlPanel.BoothCheckFunc.CancelDialogMessage
+    value: "\u30D6\u30FC\u30B9\u30C1\u30A7\u30C3\u30AF\u3092\u4E2D\u65AD\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BoothCheckFunc.NotFoundFolder
+    value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u3002\\n\u73FE\u5728\u958B\u3044\u3066\u3044\u308B\u30B7\u30FC\u30F3\u3092\u30C1\u30A7\u30C3\u30AF\u3057\u307E\u3059\u304B\uFF1F"
+  - key: Vket_ControlPanel.BoothCheckFunc.NotFoundScene
+    value: "\u30B7\u30FC\u30F3\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BuildSizeCheckFunc.SceneSaveConfirmationDialog
+    value: "\u30B7\u30FC\u30F3\u304C\u5909\u66F4\u3055\u308C\u3066\u3044\u307E\u3059\u3002\\n\u4FDD\u5B58\u3057\u3066\u5B9F\u884C\u3057\u307E\u3059\u304B\uFF1F"
+  - key: Vket_ControlPanel.BuildSizeCheckFunc.CancelDialogMessage
+    value: "\u5BB9\u91CF\u30C1\u30A7\u30C3\u30AF\u3092\u4E2D\u65AD\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BuildSizeCheckFunc.OverSize
+    value: "\u5BB9\u91CF\u304C\u30AA\u30FC\u30D0\u30FC\u3057\u3066\u3044\u307E\u3059\u3002"
+  - key: Vket_ControlPanel.BuildSizeCheckFunc.Failed
+    value: "\u30D3\u30EB\u30C9\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BuildSizeCheckFunc.Compleate
+    value: "\u30D3\u30EB\u30C9\u5B8C\u4E86\uFF01"
+  - key: Vket_ControlPanel.SetPassCheckFunc.CancelDialogMessage
+    value: "SetPassCalls\u306E\u30C1\u30A7\u30C3\u30AF\u3092\u4E2D\u65AD\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.DraftButton_Click.OutsideSubmissionPeriod
+    value: "\u5165\u7A3F\u671F\u9593\u5916\u3067\u3059\u3002"
+  - key: Vket_ControlPanel.DraftFunc.Interrupted
+    value: "\u5165\u7A3F\u3092\u4E2D\u65AD\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.DraftButton_Click.WaitVRCCheck
+    value: "VRChat\u5185\u3067\u306E\u78BA\u8A8D\u3092\u5F85\u3063\u3066\u3044\u307E\u3059\u3002"
+  - key: Vket_ControlPanel.DraftFunc.RuleCheckFailed
+    value: "\u30EB\u30FC\u30EB\u30C1\u30A7\u30C3\u30AF\u304C\u6B63\u5E38\u306B\u7D42\u4E86\u3057\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.DraftFunc.RuleCheckError
+    value: "\u30EB\u30FC\u30EB\u30C1\u30A7\u30C3\u30AF\u3067\u554F\u984C\u304C\u767A\u898B\u3055\u308C\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.DraftFunc.SizeCheckFailed
+    value: "\u5BB9\u91CF\u30C1\u30A7\u30C3\u30AF\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BakeCheckAndRun.LightBakeFailed
+    value: "Light Bake\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.LoginErrorMessage
+    value: "\u30ED\u30B0\u30A4\u30F3\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002\u304A\u554F\u3044\u5408\u308F\u305B\u306B\u3066\u8868\u793A\u3055\u308C\u305F\u30A8\u30E9\u30FC\u30B3\u30FC\u30C9\u3092\u304A\u4F1D\u3048\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.LoginError
+    value: "\u30ED\u30B0\u30A4\u30F3\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.UpdateCheck.RequestUpdate
+    value: "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3092\u884C\u3063\u3066\u304B\u3089\u5B9F\u884C\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.EditorPlayCheck.CannotExecute
+    value: "Editor\u3092\u518D\u751F\u4E2D\u306F\u5B9F\u884C\u3067\u304D\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.VRC_LocalTestLaunch.NotFoundVRCWorld
+    value: "VRC_SceneDescriptor\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u3002\\nVRCWorld\u3092\u30B7\u30FC\u30F3\u306B\u8FFD\u52A0\u3057\u3066\u304B\u3089\u3082\u3046\u4E00\u5EA6\u5B9F\u884C\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.ExportAndUpload.InterruptedSubmission
+    value: "\u554F\u984C\u304C\u767A\u751F\u3057\u305F\u70BA\u3001\u5165\u7A3F\u3092\u4E2D\u65AD\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.ExportAndUpload.FailedSubmission
+    value: "\u5165\u7A3F\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002\\n\u5165\u7A3F\u30C7\u30FC\u30BF\u3092\u78BA\u8A8D\u3057\u3066\u304B\u3089\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.ExportAndUpload.CompleateSubmission
+    value: "\u5165\u7A3F\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002\\n\u516C\u5F0F\u30B5\u30A4\u30C8\u306E\u30DE\u30A4\u30DA\u30FC\u30B8\u304B\u3089\u300C\u5165\u7A3F\u7BA1\u7406\u30DA\u30FC\u30B8\u300D\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.EditorPlay.NotPlayEditor
+    value: "Editor\u304C\u518D\u751F\u4E2D\u306B\u306A\u3063\u3066\u3044\u307E\u305B\u3093\u3002\\n\u3082\u3046\u4E00\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.EditorPlay.NotFoundCircleID
+    value: "\u30B5\u30FC\u30AF\u30EBID\u3092\u53D6\u5F97\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F\u3002\\n\u6B63\u5E38\u306B\u30C1\u30A7\u30C3\u30AF\u3067\u304D\u306A\u3044\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u304C\u5B9F\u884C\u3057\u307E\u3059\u304B\uFF1F"
+  - key: Vket_ControlPanel.EditorPlay.NotFoundBoothObject
+    value: "\u30D6\u30FC\u30B9\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u3002\\n\u30D6\u30FC\u30B9\u30C1\u30A7\u30C3\u30AF\u3092\u884C\u3063\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: AssetUtility.ForceRebuild.OpenSceneFile
+    value: "\u30B7\u30FC\u30F3\u30D5\u30A1\u30A4\u30EB\u3092\u958B\u3044\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: UpdateUtility.UpdateCheck.Message
+    value: "VketTools\u306E\u6700\u65B0\u30D0\u30FC\u30B8\u30E7\u30F3\u300C{0}\u300D\u304C\u30EA\u30EA\u30FC\u30B9\u3055\u308C\u3066\u3044\u307E\u3059\u3002\\n\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u3057\u307E\u3059\u304B\uFF1F"
+  - key: Vket_SequenceWindow.LightBakeCheck
+    value: "LightBake\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_SequenceWindow.EvaluationVRC
+    value: "VRChat\u5185\u3067\u306E\u78BA\u8A8D"
+  - key: Vket_SequenceWindow.RuleCheck
+    value: "\u30EB\u30FC\u30EB\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_SequenceWindow.BuildSizeCheck
+    value: "\u5BB9\u91CF\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_SequenceWindow.TakeScreenshot
+    value: "\u30B9\u30AF\u30EA\u30FC\u30F3\u30B7\u30E7\u30C3\u30C8\u64AE\u5F71"
+  - key: Vket_SequenceWindow.SetPassCheck
+    value: "SetPass\u30C1\u30A7\u30C3\u30AF"
+  - key: Vket_SequenceWindow.Upload
+    value: "\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9"
+  - key: Vket_SequenceWindow.PostUploadProcess
+    value: "\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u5F8C\u51E6\u7406"
+  - key: Vket_ControlPanel.EditorPlay.HopePreview
+    value: "\u4E0B\u898B\u6642\u306B\u914D\u7F6E\u3055\u308C\u3066\u3044\u305F\u5834\u6240\u3092\u5E0C\u671B\u3059\u308B"
+  - key: Vket_ControlPanel.EditorPlay.FormalSubmission
+    value: "\u3053\u306E\u5165\u7A3F\u3092\u672C\u5165\u7A3F\u3068\u3059\u308B"
+  - key: Vket_ControlPanel.EditorPlay.ScreenshotAttention
+    value: "<size=38>\u203B</size> \u3053\u3061\u3089\u306E\u30B9\u30AF\u30EA\u30FC\u30F3\u30B7\u30E7\u30C3\u30C8\u306F\u3001Vket\u304B\u3089\u306E\u544A\u77E5\u306A\u3069\u306B\u4F7F\u7528\u3059\u308B\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059\u3002\\n\u3000
+      \u3042\u3089\u304B\u3058\u3081\u3054\u4E86\u627F\u4E0B\u3055\u3044\u3002\u307E\u305F\u3001\u30D6\u30FC\u30B9\u5168\u4F53\u304C\u898B\u3048\u308B\u3088\u3046\u306B\u64AE\u5F71\u3057\u3066\u4E0B\u3055\u3044"
+  - key: Vket_ControlPanel.EditorPlay.ChangeThumbnail
+    value: "\u30D6\u30FC\u30B9\u753B\u50CF\u3092\u5909\u66F4\u3059\u308B"
+  - key: Vket_ControlPanel.DraftButton_Click.CancelSubmission
+    value: "\u5165\u7A3F\u306F\u4EE3\u8868\u8005\u306E\u307F\u304C\u53EF\u80FD\u3067\u3059\u3002\\n\u5165\u7A3F\u3092\u4E2D\u65AD\u3057\u307E\u3059\u3002"
+  - key: Vket_ControlPanel.SubmissionRule
+    value: "\u5165\u7A3F\u30EB\u30FC\u30EB"
+  - key: Vket_ControlPanel.DrawLoginInformation.SubmissionDeadline
+    value: "\u5165\u7A3F\u671F\u9650(JST)"
+  - key: Vket_ControlPanel.WaitAuthWindow.EnterAuthCode
+    value: "\u8868\u793A\u3055\u308C\u305F\u8A8D\u53EF\u30B3\u30FC\u30C9\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
+  - key: Vket_ControlPanel.WaitAuthWindow.BackButton
+    value: "\u623B\u308B"
+  - key: Vket_ControlPanel.DrawHeader.MyPage
+    value: "\u30DE\u30A4\u30DA\u30FC\u30B8"
+  - key: Vket_ControlPanel.DrawWorldSelectContent.SelectWorldButton
+    value: "\u3053\u306E\u30EF\u30FC\u30EB\u30C9\u306B\u5165\u7A3F\u3092\u958B\u59CB\u3059\u308B"
+  - key: Vket_ControlPanel.ExportAndUpload.ErrorMessage
+    value: "\u30A8\u30E9\u30FC\u306E\u3042\u308B\u72B6\u614B\u3067\u30A2\u30C3\u30D7\u30ED\u30FC\u30C9\u3057\u307E\u3057\u305F\u3002\\n\u30A8\u30E9\u30FC\u4FEE\u6B63\u5F8C\u518D\u5EA6\u5165\u7A3F\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.SelectWindow.NotFoundCircle
+    value: "\u30B5\u30FC\u30AF\u30EB\u304C\u767B\u9332\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.SelectWindow.RequestLoginAgain
+    value: "\u30DE\u30A4\u30DA\u30FC\u30B8\u304B\u3089\u30B5\u30FC\u30AF\u30EB\u3092\u767B\u9332\u306E\u3046\u3048\u518D\u5EA6\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.DrawFooter.BackWorldSelectButton
+    value: "\u30EF\u30FC\u30EB\u30C9\u9078\u629E\u306B\u623B\u308B"
+  - key: Vket_ControlPanel.ChangeASTCButton
+    value: "[Quest\u30EF\u30FC\u30EB\u30C9\u7528] \u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u306E\u30C6\u30AF\u30B9\u30C1\u30E3\u3092
+      ASTC 6\xD76 \u306B\u5909\u63DB"
+  - key: Vket_ControlPanel.ChangeASTCButtonCompleateDialogTitle
+    value: "Texture\u306EASTC\u5909\u63DB"
+  - key: Vket_ControlPanel.ChangeASTCButtonCompleateDialogMessage
+    value: "\u5909\u63DB\u304C\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.ChangeASTCButtonCompleateDialogOKButton
+    value: OK
+  - key: Vket_ControlPanel.VketPrefabsButton
+    value: "VketPrefabs\u4E00\u89A7"
+  - key: Vket_ControlPanel.DrawWorldSelectContent.PC
+    value: " (PC\u5165\u7A3F)"
+  - key: Vket_ControlPanel.DrawWorldSelectContent.Quest
+    value: " (Quest\u5165\u7A3F)"
+  - key: Vket_ControlPanel.DrawWorldSelectContent.PCItem
+    value: " (PC\u30A2\u30A4\u30C6\u30E0\u5165\u7A3F)"
+  - key: Vket_ControlPanel.DrawWorldSelectContent.QuestItem
+    value: " (Quest\u30A2\u30A4\u30C6\u30E0\u5165\u7A3F)"
+  - key: Vket_ControlPanel.SubmissionMethod
+    value: "\u5165\u7A3F\u65B9\u6CD5"
+  - key: SubmissionMethodPopup.Message
+    value: "1.\u300C\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u4F5C\u6210\u300D\u30DC\u30BF\u30F3\u3092\u62BC\u3057\u3066\u5165\u7A3F\u7528\u306E\u30D5\u30A9\u30EB\u30C0\u3092\u4F5C\u6210\u3057\u307E\u3059\u3002\\n2.\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u3092\u958B\u304D\u307E\u3059\u3002\\n3.\u300C\u5165\u7A3F\u30EB\u30FC\u30EB\u300D\u306B\u5F93\u3044\u30B7\u30FC\u30F3\u3092\u4F5C\u6210\u3057\u307E\u3059\u3002\\n4.\u300C\u30D6\u30FC\u30B9\u30C1\u30A7\u30C3\u30AF\u300D\u300C\u5BB9\u91CF\u30C1\u30A7\u30C3\u30AF\u300D\u300CSetPass\u30C1\u30A7\u30C3\u30AF\u300D\u304C\u901A\u308B\u3053\u3068\u3092\u78BA\u8A8D\u3057\u307E\u3059\u3002\\n5.\u300C\u5165\u7A3F\u300D\u30DC\u30BF\u30F3\u3067\u5165\u7A3F\u3057\u307E\u3059\u3002"
+  - key: Vket_ControlPanel.DrawItemSetting.Title
+    value: "\u30A2\u30A4\u30C6\u30E0\u8A2D\u5B9A"
+  - key: Vket_ControlPanel.DrawItemSetting.DragDrop.FiledMessage
+    value: "\u5165\u7A3F\u3059\u308B\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u3053\u3053\u306B\u30C9\u30E9\u30C3\u30B0&\u30C9\u30ED\u30C3\u30D7\u3067\u8FFD\u52A0\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.DrawItemSetting.DragDrop.Help
+    value: "\u30B7\u30FC\u30F3\u306E\u300C\u30B5\u30FC\u30AF\u30EBID\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u300D\u4EE5\u4E0B\u306B\u81EA\u52D5\u3067\u914D\u7F6E\u3055\u308C\u307E\u3059\u3002"
+  - key: Vket_ControlPanel.DrawItemSetting.SelectItemType.Title
+    value: "\u30A2\u30A4\u30C6\u30E0\u306E\u7A2E\u985E\u3092\u9078\u629E"
+  - key: Vket_ControlPanel.DrawItemSetting.SelectItemType.Help
+    value: "Default:\u898B\u305F\u76EE\u306E\u307F\u3092\u8868\u793A\u3059\u308B\u30A2\u30A4\u30C6\u30E0\u3067\u3059\u3002\\nPickup:\u30A2\u30A4\u30C6\u30E0\u304C\u63B4\u3081\u308B\u3088\u3046\u306B\u306A\u308A\u307E\u3059\u3002\\nAvatar:\u30A2\u30D0\u30BF\u30FC\u30DA\u30C7\u30B9\u30BF\u30EB(Blue
+      Print ID)\u3092\u8A2D\u5B9A\u53EF\u80FD\u3067\u3059\u3002"
+  - key: Vket_ControlPanel.DrawItemSetting.SelectPedestal
+    value: "\u53F0\u5EA7\u306E\u9078\u629E"
+  - key: Vket_ControlPanel.DrawItemSetting.PedestalName1
+    value: "\u57FA\u672C\u53F0\u5EA7"
+  - key: Vket_ControlPanel.DrawItemSetting.PedestalName2
+    value: "\u5C0F\u7269\u7528\u53F0\u5EA7"
+  - key: Vket_ControlPanel.DrawToolButtons.OpenSubmissionSceneButton
+    value: "\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u3092\u958B\u304F"
+  - key: Vket_ControlPanel.OpenSubmissionSceneButton_Click.ErrorDialog.Title
+    value: "\u30B7\u30FC\u30F3\u304C\u958B\u3051\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.OpenSubmissionSceneButton_Click.ErrorDialog.Message
+    value: "\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3002\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.IsLoggedInVRCSDK
+    value: "VRCSDK\u306B\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.IsExistVRCClient
+    value: "VRChat\u306E\u30D1\u30B9\u3092\u9593\u9055\u3048\u3066\u3044\u308B\u304B\u3001VRChat\u304C\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002[VRChat
+      SDK/Show Control Panel]\u3092\u958B\u304D\u3001Settings\u30BF\u30D6\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: NetworkUtility.ServerErrorMessage
+    value: "\u30B5\u30FC\u30D0\u30FC\u30A8\u30E9\u30FC\u304C\u767A\u751F\u3057\u3066\u3044\u307E\u3059\u3002"
+  - key: NetworkUtility.FailedLoginMessage
+    value: "\u30ED\u30B0\u30A4\u30F3\u3067\u304D\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.StartSubmissionButton
+    value: "\u5165\u7A3F\u3092\u958B\u59CB\u3059\u308B"
+  - key: Vket_ControlPanel.DrawFooter.ExportButton
+    value: "\u5165\u7A3F\u30D5\u30A1\u30A4\u30EB\u306E\u66F8\u304D\u51FA\u3057"
+  - key: Vket_ControlPanel.BoothExportButton_Click.FailedExport.Title
+    value: "\u5165\u7A3F\u30D5\u30A9\u30EB\u30C0\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.BoothExportButton_Click.FailedExport.Message
+    value: "\u5165\u7A3F\u30B7\u30FC\u30F3\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.OnGUI.SDKLoginMessage
+    value: "VRChat SDK\u306B\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.OnGUI.AppPathError.Title
+    value: "VRChat\u306E\u8D77\u52D5\u30D1\u30B9\u304C\u6307\u5B9A\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.OnGUI.AppPathError.Message
+    value: "VRChat SDK\u306ESetting\u30BF\u30D6\u3092\u958B\u304D\u3001Installed
+      Client Path\u306BVRChat.exe\u3092\u6307\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.OnGUI.NotOpenSDKPanel.Title
+    value: "VRChat SDK\u304C\u8868\u793A\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002\u300CVRChat
+      SDK/Show Control Panel\u300D\u304B\u3089\u8868\u793A\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.OnGUI.NotBuilderTab.Title
+    value: "VRChat SDK\u306EBuilder\u30BF\u30D6\u304C\u958B\u3044\u3066\u3044\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.OnGUI.NotBuilderTab.Message
+    value: "VRChat SDK\u306EBuilder\u30BF\u30D6\u3092\u958B\u3044\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.LoginWindow.InputCircleID
+    value: "\u203BID\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.BoothCheckButton_Click.Cancel.Title
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.BoothCheckButton_Click.Cancel.Message
+    value: "\u30D6\u30FC\u30B9\u30C1\u30A7\u30C3\u30AF\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BuildSizeCheckButton_Click.Cancel.Title
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.BuildSizeCheckButton_Click.Cancel.Message
+    value: "\u5BB9\u91CF\u30C1\u30A7\u30C3\u30AF\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.SetPassCheckButton_Click.Cancel.Title
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.SetPassCheckButton_Click.Cancel.Message
+    value: "SetPass\u30C1\u30A7\u30C3\u30AF\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.DraftSequenceWindow.Title
+    value: "\u5165\u7A3F\u51E6\u7406\u4E2D\u3067\u3059\u3002"
+  - key: Vket_ControlPanel.DraftSequenceWindow.Help
+    value: "\u5165\u7A3F\u51E6\u7406\u4E2D\u306F\u3053\u308C\u3089\u306E\u30A6\u30A3\u30F3\u30C9\u30A6\u3092\u9589\u3058\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002\\n[VRChat
+      SDK], [VketTools], [Game]"
+  - key: Vket_ControlPanel.DraftSequenceWindow.Build.Message
+    value: "\u30C6\u30B9\u30C8\u306E\u6E96\u5099\u4E2D\u3067\u3059\u3002\u3057\u3070\u3089\u304F\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.DraftSequenceWindow.Build.Confirm
+    value: "\u78BA\u8A8D\u30C0\u30A4\u30A2\u30ED\u30B0\u8868\u793A\u4E2D\u3067\u3059\u3002"
+  - key: Vket_ControlPanel.DraftSequenceWindow.CancelButton
+    value: "\u5165\u7A3F\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.SetPassCheckButtonIntermediateProcessingTask.Cancel.Title
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.SetPassCheckButtonIntermediateProcessingTask.Cancel.Message
+    value: "SetPass\u30C1\u30A7\u30C3\u30AF\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.DraftTask.Cancel.Title
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.DraftTask.Cancel.Message
+    value: "\u5165\u7A3F\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.BuildAndTestWorld.BuildFaild.Message
+    value: "\u30D3\u30EB\u30C9\u306B\u5931\u6557\u3057\u307E\u3057\u305F\u3002\u5165\u7A3F\u51E6\u7406\u3092\u4E2D\u65AD\u3057\u307E\u3059\u3002"
+  - key: Vket_ControlPanel.OnPlayModeStateChanged.PlayModeNotification.Message
+    value: "Vket\u3067\u306F\u5C02\u7528\u306E\u30D7\u30ED\u30B0\u30E9\u30E0\u3067\u52D5\u4F5C\u3055\u305B\u308B\u305F\u3081\u3001UnityEditor\u4E0A\u3067\u306E\u78BA\u8A8D\u3067\u306F\u5165\u7A3F\u7269\u306E\u52D5\u4F5C\u304C\u4FDD\u8A3C\u3055\u308C\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.OnPlayModeStateChanged.PlayModeNotification.NotDisplayNext
+    value: "\u6B21\u56DE\u4EE5\u964D\u8868\u793A\u3057\u306A\u3044"
+  - key: Vket_BlinderToolbar.Message
+    value: "\u51E6\u7406\u4E2D"
+  - key: Vket_ControlPanel.OnGUI.NotBuilderTab.OpenButton
+    value: "Builder\u30BF\u30D6\u3092\u958B\u304F"
+  - key: Vket_ControlPanel.VRCCheckButton_Click.Cancel.Title
+    value: "\u30AD\u30E3\u30F3\u30BB\u30EB"
+  - key: Vket_ControlPanel.VRCCheckButton_Click.Cancel.Message
+    value: "VRC\u30C1\u30A7\u30C3\u30AF\u3092\u30AD\u30E3\u30F3\u30BB\u30EB\u3057\u307E\u3057\u305F\u3002"
+  - key: Vket_ControlPanel.VRCCheckButton
+    value: "VRChat \u52D5\u4F5C\u78BA\u8A8D"
+  - key: Vket_ControlPanel.DrawItemSetting.NotFoundScene.Help
+    value: "\u30A2\u30A4\u30C6\u30E0\u306E\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3002\\n\u5165\u7A3F\u7528\u30B7\u30FC\u30F3\u3092\u4F5C\u6210\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+  - key: Vket_ControlPanel.BakeCheckAndRun.NotSaveScene.Message
+    value: "\u30B7\u30FC\u30F3\u30D5\u30A1\u30A4\u30EB\u304C\u4FDD\u5B58\u3055\u308C\u3066\u3044\u307E\u305B\u3093\u3002"
+  - key: Vket_ControlPanel.DrawItemSetting.BordSetting.Title
+    value: "\u30AD\u30E3\u30D7\u30B7\u30E7\u30F3\u30DC\u30FC\u30C9\u306E\u8A2D\u5B9A"
+  - key: Vket_ControlPanel.DrawItemSetting.BordSetting.ItemName
+    value: "\u5546\u54C1\u540D"
+  - key: Vket_ControlPanel.DrawItemSetting.BordSetting.ItemPrice
+    value: "\u8CA9\u58F2\u4FA1\u683C"
+  - key: Vket_ControlPanel.DrawItemSetting.BordSetting.Help
+    value: "\u30AD\u30E3\u30D7\u30B7\u30E7\u30F3\u30DC\u30FC\u30C9\u306E\u30A2\u30A4\u30C6\u30E0\u540D\u3068\u8CA9\u58F2\u4FA1\u683C\u3092\u8A2D\u5B9A\u53EF\u80FD\u3067\u3059\u3002"
