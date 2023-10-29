@@ -603,6 +603,6 @@
         </svg>
       </section>
     </main>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"81b2a5c4dfe8ded7","version":"2023.10.0","r":1,"token":"3b52ee8ae0d54c8fb377c1be54a06f8a","b":1}' crossorigin="anonymous"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"81bb09b08dcc80b1","version":"2023.10.0","r":1,"token":"3b52ee8ae0d54c8fb377c1be54a06f8a","b":1}' crossorigin="anonymous"></script>
 </body>
 </html>

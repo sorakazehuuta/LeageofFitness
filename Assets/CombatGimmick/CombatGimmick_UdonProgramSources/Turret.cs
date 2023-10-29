@@ -5,7 +5,7 @@ using VRC.SDKBase;
 using VRC.Udon;
 using System;
 using UnityEngine.UI;
-
+using UnityEngine.AI;
 namespace CombatGimmick
 {
     public enum TurretRespawnType
@@ -38,6 +38,8 @@ namespace CombatGimmick
         [Tooltip("射撃時に発動する効果音")] [SerializeField] AudioClip FireAudioClip;
         [Tooltip("タレット起動時に発動する効果音")] [SerializeField] AudioClip ActivateAudioClip;
         [Tooltip("タレット撃破時に発動する効果音")] [SerializeField] AudioClip KillAudioClip;
+        [Tooltip("Minionが敵を攻撃する機能")] [SerializeField] bool minionFlag;
+        [Tooltip("NavMeshAgent コンポーネントへの参照")] [SerializeField]private UnityEngine.AI.NavMeshAgent agent; 
         //---------------------------------------
         float lastSearchTargetTime;
         float lastFireTime;
@@ -46,6 +48,7 @@ namespace CombatGimmick
         AudioSource audioSource;
         ParticleSystem BulletParticle;
         Bot bot;
+        public Transform player; // Player の transform をインスペクターから設定する
         [UdonSynced] int SyncedTargetPlayerHitBoxID;  //ターゲットプレイヤーのPlayerID
         //---------------------------------------
         //[Header("手動で変更しないこと")]
@@ -62,6 +65,7 @@ namespace CombatGimmick
         //---------------------------------------
         void Start()
         {
+            agent = GetComponent<NavMeshAgent>(); // NavMeshAgent コンポーネントを取得する
             Initialize();
         }
         //---------------------------------------
@@ -81,6 +85,8 @@ namespace CombatGimmick
             Aim();
             
             if (Time.time - lastFireTime > FireInterval && SyncedTargetPlayerHitBoxID >= 0) { Fire(); }
+
+        
         }
         //---------------------------------------
         public void SearchTeamMode()
@@ -124,6 +130,11 @@ namespace CombatGimmick
                         targetIsFound = true;
 
                         SyncedTargetPlayerHitBoxID = i;
+                        if(minionFlag = true)
+                        {
+                            //敵追従はここかな？
+                            agent.destination = playerHitBoxes[i].transform.position;
+                        }
                     }
                 }
             }
@@ -389,6 +400,7 @@ namespace CombatGimmick
                 | Convert.ToInt32(hitLayer[30]) << 30
                 | Convert.ToInt32(hitLayer[31]) << 31;
         }
+
         //---------------------------------------
     }
 }
