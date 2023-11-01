@@ -6106,7 +6106,7 @@ PrefabInstance:
         type: 3}
       propertyPath: agent
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2006360134}
     - target: {fileID: 7963487730763779532, guid: 591babc85e1e9bc4f9a3b63fed1efc1f,
         type: 3}
       propertyPath: minionFlag
@@ -6140,6 +6140,12 @@ GameObject:
 --- !u!1 &2006360133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5673627540536536856, guid: 591babc85e1e9bc4f9a3b63fed1efc1f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2006360131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &2006360134 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 7963487730763779531, guid: 591babc85e1e9bc4f9a3b63fed1efc1f,
     type: 3}
   m_PrefabInstance: {fileID: 2006360131}
   m_PrefabAsset: {fileID: 0}

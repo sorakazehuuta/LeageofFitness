@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: LoginInfo
   m_EditorClassIdentifier: 
   authentication:
-    access_token: JGGhdYkY3vuezb24uWdrjPEkoIRknvrBJcAGGtANa0Y
-    expires_in: 7199
+    access_token: bYDVQ6eWWoOXEwY0qpOWNBJ6XquvDEaNAZEbBF8T7Vs
+    expires_in: 7200
     id_token: 
-    refresh_token: GbSq9VpRPBClaV-XwqnKHvuEcBLvooeJgFo8VcnqMn4
+    refresh_token: Pucv0s5sWP0FUwHSb0-Y_WQEF7czY2IgQYHuRuqOTNE
     scope: default
     token_type: Bearer
-    created_at: 1698762925
+    created_at: 1698854461
   profile:
     sub: fc6386e9-80f4-479d-a171-4216b783eaeb
     vket_id: sorakazehuuta
@@ -87,7 +87,7 @@ MonoBehaviour:
     items: []
     placements: []
   vketId: sorakazehuuta
-  accessToken: JGGhdYkY3vuezb24uWdrjPEkoIRknvrBJcAGGtANa0Y
+  accessToken: bYDVQ6eWWoOXEwY0qpOWNBJ6XquvDEaNAZEbBF8T7Vs
   vrcLaunchFlag: 1
   world:
   - id: 1
@@ -445,7 +445,7 @@ MonoBehaviour:
         url: 
   submissionTerm:
     status: 200
-    server_time: 1698763136
+    server_time: 1698854400
     start: 1697770800
     end: 1700406900
   selectedItemNum: 9999
